@@ -1,5 +1,5 @@
 import Dashboard from "./views/Dashboard.js";
-import Mix from "./views/Mix.js";
+import Mixs from "./views/Mix.js";
 import MixView from "./views/MixView.js";
 import Settings from "./views/Settings.js";
 
@@ -27,8 +27,8 @@ const navigateTo = (url) => {
 const router = async () => {
   const routes = [
     { path: "/", view: Dashboard },
-    { path: "/mix", view: Mix },
-    { path: "/mix/:id", view: MixView },
+    { path: "/mixs", view: Mixs },
+    { path: "/mixs/:id", view: MixView },
     { path: "/settings", view: Settings },
   ];
 
